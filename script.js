@@ -25,18 +25,9 @@ for (let i = 0; i < total.length; i++) {
         }
 
         document.getElementById('amount').innerHTML = totalAmount.toLocaleString();
-
-        // totalAmount += parseInt(total[i].innerHTML);
-        console.log(totalAmount);
-        // console.log(total[i].innerHTML);
     }
 
     input[i].addEventListener('change', getResult);
-
-
-    // let amount = document.getElementById('amount');
-    // amount += multiply;
-    // console.log(amount);
 }
 
 
